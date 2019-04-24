@@ -5,7 +5,7 @@ library(shiny)
 library(ggmap)
 library(leaflet)
 
-register_google(key = "AIzaSyCFANenvxHGw3HQphmyEXgaNBAfoqZe1wQ")
+register_google(key = "your API key")
 write = TRUE
 
 datatree <- read.csv("trees.csv", stringsAsFactors = FALSE)
@@ -16,7 +16,7 @@ v <- data.frame()
 ui <- fluidPage(
   leafletOutput("mymap", height = 500),
   p(),
-  textInput(inputId = "address", label = "Address", placeholder = "e.g 66 D Mary Street, Lodi, NJ 7644"),
+  textInput(inputId = "address", label = "Address", placeholder = "e.g 85 Prospect Ave, Hackensack, NJ 07601"),
   actionButton("search", "Search"),
   actionButton("displaytrees", "Display Trees")
 )
