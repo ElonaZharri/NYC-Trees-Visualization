@@ -1,0 +1,8 @@
+This application will first inquire the user to enter their full address, including street, city and zip code. 
+Based on the given address through this application the user will be able to identify all the trees around the 
+address and display the properties of those trees and how do these trees benefit the user in terms of air quality 
+and saving energy.
+
+The dataset used for this application is a public dataset which can be located here: 
+https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35
+
